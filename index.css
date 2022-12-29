@@ -80,6 +80,9 @@ img {
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
   transition: transform 100ms ease-in-out;
 }
+image.profile { width : 50%;
+ height : auto
+}
 .imagetext {
   font-size: 15px;
   width: auto;
