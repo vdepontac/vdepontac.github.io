@@ -1,0 +1,191 @@
+.menustore {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+a.menustore:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #6699FF;
+	text-decoration: none;
+}
+.toppoints {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FF0000;
+	text-decoration: none;
+
+}
+.toptexte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.gradientpaged {
+	background-image: url(/web/20060418112808im_/http://www.trackmania.com/images/gradiantpaged.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.gradientpageg {
+	background-image: url(/web/20060418112808im_/http://www.trackmania.com/images/gradiantpageg.jpg);
+	background-repeat: repeat-x;
+	background-position: right top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.TexteTitre {
+	font-family: "Arial Black", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.Popup_TexteTitre {
+	font-family: "Arial Black", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.Texte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin: 9px;
+
+
+
+
+
+
+}
+.TexteLettrine {
+	font-family: "Arial Black", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 30px;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+
+}
+.liens {
+	font-family: "Arial Black", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a.liens:hover {
+
+	font-family: "Arial Black", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.page {
+	background-color:#C4C4C9;
+}
+.gradiantstore {
+	background-image: url(/web/20060418112808im_/http://www.trackmania.com/images/gradiantstore.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+th.Dedicated {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 9px;
+	background-color: #000000;
+}
+td.Dedicated {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	margin: 9px;
+}
+.td.backgroundUpperRight {
+	background-color: #FFFFFF;
+}
+/*
+     FILE ARCHIVED ON 11:28:08 Apr 18, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:35:04 Jan 13, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 954.47
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 5.624
+  esindex: 0.009
+  LoadShardBlock: 926.27 (3)
+  PetaboxLoader3.datanode: 102.285 (4)
+  CDXLines.iter: 20.057 (3)
+  PetaboxLoader3.resolve: 1200.635 (3)
+  load_resource: 484.092
+*/
