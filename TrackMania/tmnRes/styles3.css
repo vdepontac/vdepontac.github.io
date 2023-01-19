@@ -1,3 +1,12 @@
+#overlay {
+    background-color: rgba(128, 128, 128, 0.5); /* gris transparent */
+    position: absolute; /* pour qu'il soit superposé à la table */
+}
+
+#overlay {
+    pointer-events: none; /* bloque les clics et les hover */
+}
+
 .menustore {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
