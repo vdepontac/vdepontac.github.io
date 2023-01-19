@@ -1,0 +1,75 @@
+body {	background-image:url(/web/20060615032131im_/http://tm-mag.com/images/background.gif); background-attachment: fixed;	background-position:top; background-repeat:repeat-x; font-family: Geneva, Arial, Helvetica, sans-serif;	font-size:14px;}
+td,td{font-family: Geneva, Arial, Helvetica, sans-serif; color:#000000; font-size:14px}
+
+/* LIENS DEBUT */
+
+A:link{color:#AA0000; font-weight:bold;text-decoration: none;}
+A:visited{color:#AA0000; font-weight:bold;text-decoration: none;}
+A:hover{color:#FFFFFF; font-weight:bold; background-color:#8C9EB5;text-decoration:underline;}
+
+A.news:link{color:#AA0000; font-size:12px;text-decoration: none;}
+A.news:visited{color:#AA0000; font-size:12px;text-decoration: none;}
+A.news:hover{color:#FFFFFF; background-color: #8C9EB5; font-size:12px;text-decoration:underline;}
+
+A.menu:link{color:#AA0000;font-weight: bold;font-size:14px;text-decoration: none;}
+A.menu:visited{color:#AA0000; font-weight: bold; font-size:14px;text-decoration: none;}
+A.menu:hover{color:#FFFFFF; font-weight: bold; background-color: #8C9EB5; font-size:14px;text-decoration: none;}
+
+A.link2:link{color:#000000; font-weight:bold; font-size:12px;text-decoration: none;}
+A.link2:visited{ color:#000000; font-weight:bold; font-size:12px;text-decoration: none;}
+A.link2:hover{color:#FFFFFF; font-weight: bold; background-color:#8C9EB5; font-size:12px; text-decoration:underline;}
+
+A.link3:link{color:#000000; font-weight:bold; font-size:9px;text-decoration: underline;}
+A.link3:visited{ color:#000000; font-weight:bold; font-size:9px;text-decoration: underline;}
+A.link3:hover{color:#FFFFFF; font-weight: bold; background-color:#8C9EB5; font-size:9px; text-decoration:underline;}
+
+
+/* LIENS FIN */
+
+.tabletitle{ background: #CC0000 url(/web/20060615032131im_/http://tm-mag.com/images/fonfbarretmmag.gif) no-repeat right; color: #FFFFFF; font-weight: bold; font-size:16px}
+.announce { background: #CCCCCC url(/web/20060615032131im_/http://tm-mag.com/images/fonfannonce.gif) no-repeat center; vertical-align:middle; text-align: center; padding: 0.5cm; color: #000000;}
+.tabletitleart{ background-color:#CC0000; color:#FFFFFF; font-weight:bold; font-size:16px; border-style:solid; border-width:1px; border-color:black; border-collapse:collapse}
+.tablenews { background: url(/web/20060615032131im_/http://tm-mag.com/images/fondnews.jpg) no-repeat center; vertical-align:middle;}
+
+
+
+table.acceuil{border-style:solid; border-width:1px; border-color:black; border-collapse:collapse}
+td.acceuil {border-style:solid; border-width:1px; border-color:black; font-color:white;}
+
+.category {font-weight:bolder; text-decoration:underline; font-size:12px}
+.breakingnews {font-size:12px}
+.news{font-size:12px;}
+
+.subtitle{background-color:#CC0000; color:#FFFFFF; font-weight:bold; font-size:12px}
+
+.texte1 {text-align: justify;}
+
+input{font-size:11px; border:0px; background-color:#A3AFBF;}
+
+.ok{font-size:16px;	border:0px;	background-color:#A3AFBF; height:30; width:32; font-weight: bolder;}
+
+table.input2{border-style:solid; border-width:1px; border-color:black; border-collapse:collapse;}
+td.input2 { border-style:solid; border-width:1px; border-color:black;font-color:white;}
+
+
+/*
+     FILE ARCHIVED ON 03:21:31 Jun 15, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:17:59 Jan 19, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 97.549
+  exclusion.robots: 0.102
+  exclusion.robots.policy: 0.093
+  cdx.remote: 0.074
+  esindex: 0.009
+  LoadShardBlock: 60.126 (3)
+  PetaboxLoader3.datanode: 83.818 (4)
+  CDXLines.iter: 16.425 (3)
+  load_resource: 104.818
+  PetaboxLoader3.resolve: 39.971
+*/
