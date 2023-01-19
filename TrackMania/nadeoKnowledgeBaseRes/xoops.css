@@ -1,0 +1,38 @@
+img {border: 0;}
+
+#xoopsHiddenText {visibility: hidden; color: #000000; font-weight: normal; font-style: normal; text-decoration: none;}
+
+.pagneutral {font-size: 10px; width: 16px; height: 18px; text-align: center; background-image: url(/web/20060521005726im_/http://www.nadeo.com/images/pagneutral.gif);}
+.pagact {font-size: 10px; width: 16px; height: 18px; text-align: center; background-image: url(/web/20060521005726im_/http://www.nadeo.com/images/pagact.gif);}
+.paginact {font-size: 10px; width: 16px; height: 18px; text-align: center; background-image: url(/web/20060521005726im_/http://www.nadeo.com/images/paginact.gif);}
+
+#mainmenu a {text-align:left; display: block; margin: 0; padding: 4px;}
+#mainmenu a.menuTop {padding-left: 3px;}
+#mainmenu a.menuMain {padding-left: 3px;}
+#mainmenu a.menuSub {padding-left: 9px;}
+
+#usermenu a {text-align:left; display: block; margin: 0; padding: 4px;}
+#usermenu a.menuTop {}
+#usermenu a.highlight {color: #0000ff; background-color: #fcc;}
+
+/*
+     FILE ARCHIVED ON 00:57:26 May 21, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:36:06 Jan 19, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 277.345
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.077
+  cdx.remote: 0.097
+  esindex: 0.011
+  LoadShardBlock: 108.232 (3)
+  PetaboxLoader3.datanode: 96.974 (4)
+  CDXLines.iter: 17.358 (3)
+  load_resource: 145.836
+  PetaboxLoader3.resolve: 31.797
+*/

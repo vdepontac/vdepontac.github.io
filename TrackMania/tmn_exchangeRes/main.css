@@ -1,0 +1,406 @@
+/* -- Base Level Formatting -------------------------------------------- */
+
+body 
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #c8c8c8;
+}
+
+body, table, input, select, textarea
+{
+	font-family: Tahoma, verdana, helvetica;
+	font-size: 10px;
+	color: #4b4b4b;
+}
+
+a
+{
+	text-decoration: none;
+	color: #0000FF;
+}
+
+a:hover
+{
+	color: #6464FF;
+}
+
+/* -- Outer Page Formatting -------------------------------------------- */
+
+.Outer
+{
+	background-color: #ffffff;
+}
+
+.OuterLeft
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/outer-left.gif);
+	background-repeat: repeat-y;
+}
+
+.OuterRight
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/outer-right.gif);
+	background-repeat: repeat-y;
+}
+
+.OuterHeader
+{
+	padding: 5px 6px 2px 6px;
+}
+
+.OuterMenu
+{
+	padding: 2px 0px 6px 0px;
+}
+
+.OuterNavigator
+{
+	padding: 0px 6px 2px 6px;
+}
+
+.OuterBookmark
+{
+	padding: 0px 6px 2px 6px;
+}
+
+.OuterContent
+{
+	padding: 0px 6px 2px 6px;
+}
+
+.OuterFooter
+{
+	padding: 0px 0px 0px 0px;
+}
+
+.OuterBottom
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/outer-bottom.gif);
+	background-repeat: repeat-x;
+}
+
+/* -- Misc Outer Formatting -------------------------------------------- */
+
+.MenuCell
+{
+	padding-right: 2px;
+}
+
+.NavigatorCell
+{
+	background-color: #ebebeb;
+	vertical-align: middle;
+	padding-right: 3px;
+	color: #4b4b4b;
+}
+
+.BookmarkCell
+{
+	background-color: #ebebeb;
+	vertical-align: middle;
+	padding: 2px 4px 2px 9px;
+	color: #4b4b4b;
+}
+
+.ContentTable
+{
+	background-color: #ebebeb;
+}
+
+.ContentCell
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.FooterCell
+{
+	padding: 0px 1px 3px 1px;
+}
+
+/* -- Window Formatting -------------------------------------------- */
+
+.Window
+{
+	background-color: #ffffff;
+}
+
+.WindowTopB, .WindowTopNB
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/window-top-tile.gif);
+	background-repeat: repeat-x;
+}
+
+
+.WindowTopB
+{
+	border-bottom: solid 1px #efefef;
+}
+
+.WindowBottomB, .WindowBottomNB
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/window-bottom-tile.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+
+.WindowBottomB
+{
+	border-top: solid 1px #efefef;
+}
+
+.WindowLeft
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/window-left-tile.gif);
+	background-repeat: repeat-y;	
+}
+
+.WindowRight
+{
+	background-image: url(/web/20060419191830im_/http://nations.tm-exchange.com/theme/window-right-tile.gif);
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+.WindowTitle
+{
+	padding: 5px 0px 1px 1px;
+	font-weight: bold;
+}
+
+.WindowTitleI
+{
+	font-weight: bold;
+}
+
+.WindowHeader1
+{
+	padding: 0px 6px 1px 6px;
+	background-color: #4d4d4d;
+	color: #ffffff;
+}
+
+.WindowHeader2
+{
+	padding: 0px 6px 0px 6px;
+	background-color: #efefef;
+}
+
+.WindowContainer {padding: 0px 0px 0px 0px;}
+.WindowText {padding: 6px 12px 6px 12px;}
+.WindowTextNB {padding: 0px 12px 0px 12px;}
+.WindowFooter {padding: 1px 1px 6px 1px;}
+.WindowScreen {padding: 1px 1px 1px 1px;}
+
+/* -- Window Table Formatting -------------------------------------------- */
+
+.WindowTableHeader1, .WindowTableHeader1 td
+{
+	padding: 0px 6px 1px 6px;
+	background-color: #4d4d4d;
+	color: #ffffff;
+}
+
+.WindowTableHeader2, .WindowTableHeader2 td
+{
+	padding: 0px 6px 1px 6px;
+	background-color: #efefef;
+}
+
+.WindowTableCell1, .WindowTableCell1 td
+{
+	padding: 1px 6px 1px 6px;
+}
+
+.WindowTableCell2, .WindowTableCell2 td
+{
+	padding: 1px 6px 1px 6px;
+	background-color: #fafafa;
+}
+
+.WindowTableCellB, .WindowTableCellB td
+{
+	padding: 1px 6px 1px 6px;
+	border-bottom: solid 1px #efefef;
+}
+
+.WindowTableCellN, .WindowTableCellN td
+{
+	border-style: none;
+}
+
+.WindowTableCellNull, .WindowTableCellNull td
+{
+	padding: 0px 0px 0px 0px;
+}
+
+/* -- Forum Formatting -------------------------------------------- */
+
+.WindowForumTitle
+{
+	background-color: #E7E7E7;
+	padding: 1px 5px 1px 7px;
+	font-size: 10px;
+}
+
+.WindowForumInfo
+{
+	background-color: #EFEFEF;
+	padding: 1px 5px 1px 7px;
+	font-size: 10px;
+}
+
+.ForumQuote
+{
+	border: solid 1px #dfdfdf;
+}
+
+.ForumQuoteBy
+{
+	background-color: #efefef;
+	border-bottom: solid 1px #dfdfdf;	
+	font-weight: bold;
+	font-size: 9px;
+}
+
+.ForumQuoteMain {}
+
+.ForumTrack
+{
+	border: solid 1px #dfdfdf;
+}
+
+.ForumTrackTitle
+{
+	background-color: #efefef;
+	border-bottom: solid 1px #dfdfdf;	
+	padding: 2px 2px 0px 2px;
+	font-size: 9px;
+}
+
+.ForumTrackMain
+{
+	padding: 1px 1px 1px 1px;
+}
+
+/* -- Text Formatting -------------------------------------------- */
+
+.TextError
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: red;
+}
+
+.TextInfo
+{
+	text-decoration: none;
+	color: blue;
+}
+
+.TextQuiet
+{
+	text-decoration: none;
+	color: #7F7F7F;
+}
+
+.TextFilter
+{
+	text-decoration: none;
+	color: Green;
+}
+
+.TextForumMini2
+{
+	color: #7F7F7F;
+}
+
+.LinkQuiet
+{
+	color: #4b4b4b;
+}
+
+.LinkQuiet:hover
+{
+	color: #AFAFAF;
+}
+
+/* -- Misc -------------------------------------------- */
+
+.EditBox
+{
+	width: 100%;
+}
+
+.ScreenshotCell
+{
+	border: solid 1px #efefef;
+	padding: 1px 1px 1px 1px;
+}
+
+/* -- Compo Formatting -------------------------------------------- */
+
+.CompoText1
+{
+	font-size: 12px;
+	color: DarkGreen;
+}
+
+.CompoText2
+{
+	font-size: 12px;
+	color: Red;
+}
+
+.CompoLink1
+{
+	font-size: 16px;
+	color: #0000FF;
+}
+
+.CompoLink1:hover
+{
+	color: #6464FF;
+}
+
+/* -- Showcase Formatting -------------------------------------------- */
+
+.WindowShowcase {padding: 0px 0px 0px 0px;}
+.ShowcaseTitleLink {font-size: 14px;}
+
+.ShowcaseTitle {padding: 1px 0px 1px 0px; border-bottom: solid 1px #dfdfdf; background-color: #efefef; }
+.ShowcaseTitle1 {padding: 0px 0px 0px 8px;}
+.ShowcaseTitle2 {padding: 0px 6px 1px 6px;}
+.ShowcaseScreen {padding: 1px 1px 1px 1px; border: solid 1px #dfdfdf; }
+.ShowcaseScreenCell {padding: 6px 6px 6px 6px;}
+
+.ShowcaseDetailCell {padding: 0px 0px 0px 0px;}
+.ShowcaseRecordCell {padding: 3px 0px 2px 6px; border-bottom: solid 1px #dfdfdf;}
+
+.ShowcaseMessageCell {padding: 8px 12px 8px 6px;}
+.ShowcaseOtherTracksCell {padding: 2px 4px 2px 6px; border-top: solid 1px #dfdfdf;}
+.ShowcaseOtherTracksCell2 {padding: 1px 4px 4px 6px;}
+.ShowcaseOtherTrackCell {padding: 0px 16px 0px 0px;}
+
+/*
+     FILE ARCHIVED ON 19:18:30 Apr 19, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:44:44 Jan 19, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 74.596
+  exclusion.robots: 0.081
+  exclusion.robots.policy: 0.073
+  cdx.remote: 0.079
+  esindex: 0.011
+  LoadShardBlock: 48.018 (3)
+  PetaboxLoader3.datanode: 74.974 (4)
+  CDXLines.iter: 14.278 (3)
+  load_resource: 124.12
+  PetaboxLoader3.resolve: 83.755
+*/
