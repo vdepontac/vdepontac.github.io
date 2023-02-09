@@ -1,0 +1,162 @@
+@charset "utf-8";
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+body {
+	background-color: #FFCC00;
+	background-image: url(/web/20100710135557im_/http://www.nadeo.com/images/bg.gif);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	text-align: left;
+}
+h2 {
+	font-size: 18px;
+	color: #333333;
+}
+h3 {
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1em;
+}
+h4 {
+	font-size: 10px;
+	color: #333333;
+}
+h5 {
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	vertical-align: bottom;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table.legend {
+	text-align: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	width: 100%;
+	height: 100%;
+}
+#legend {
+	text-align: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	width: 100%;
+	height: 100%;
+}
+#Master {
+	background-position: center top;
+	width: 100%;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#Master #page {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 1004px;
+	height: 684px;
+	border: 0px;
+}
+#banner   {
+	background-image: url(/web/20100710135557im_/http://www.nadeo.com/images/banner.gif);
+	background-repeat: no-repeat;
+	height: 120px;
+	width: 1004px;
+	vertical-align: text-bottom;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#MainPage {
+	height: 488px;
+	width: 1004px;
+	background-image: url(/web/20100710135557im_/http://www.nadeo.com/images/mainpage.gif);
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#MainButtons {
+	width: 100%;
+	vertical-align: top;
+	text-align: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#bottom {
+	width: 1004px;
+	height: 76px;
+	background-image: url(/web/20100710135557im_/http://www.nadeo.com/images/bottom.gif);
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+/*
+     FILE ARCHIVED ON 13:55:57 Jul 10, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:25:21 Jan 19, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 178.722
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.085
+  cdx.remote: 0.067
+  esindex: 0.009
+  LoadShardBlock: 58.296 (3)
+  PetaboxLoader3.datanode: 89.346 (4)
+  CDXLines.iter: 16.887 (3)
+  load_resource: 623.221
+  PetaboxLoader3.resolve: 550.463
+*/
