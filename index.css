@@ -92,7 +92,6 @@ image.profile { width : 50%;
 .button {
   background-color: rgba(112, 128, 144, 0.5);
   backdrop-filter: blur(15px);
-	border-radius:5px;
 	border:2px solid rgba(255, 255, 255, 0.2);
 	display: flexbox;
   flex-direction: row;
