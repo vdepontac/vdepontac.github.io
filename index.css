@@ -143,6 +143,8 @@ td {
 .button-container {
   display:flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .date {
   font-style: italic;
