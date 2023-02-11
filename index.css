@@ -56,7 +56,8 @@ h1, h2, h3, h4 {font-family: Segoe UI, SegUIVar, sans-serif; text-decoration: no
 body {
   margin: 0 auto;
   width: 80%;
-  padding-bottom: 30%; 
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,16 +67,13 @@ body {
   background-color: rgba(255, 255, 255, 0.10);
   padding: 20px;
   border: 2px solid rgba(255, 255, 255, 0.5);
-  border-top:none;
-  border-radius:0px 0px 10px 10px;
   backdrop-filter: blur(15px);
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
-  max-width:1148px;
+  max-width:px;
 }
 img {
   border: 2px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
-  border-radius:5px;
   margin:5px;
   box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 10px;
   transition: transform 100ms ease-in-out;
