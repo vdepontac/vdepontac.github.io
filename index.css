@@ -174,7 +174,6 @@ div#linkTM {
 .slide {
   flex-shrink: 0;
   scroll-snap-align: start;
-  width: 300px;
   margin-right: 20px;
   height: 300px;
   display: flex;
