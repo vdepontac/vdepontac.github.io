@@ -176,7 +176,7 @@ div#linkTM {
   flex-shrink: 0;
   scroll-snap-align: start;
   margin-right: auto;
-  height: 300px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
