@@ -185,3 +185,9 @@ div#linkTM {
   width: 100%;
   object-fit: contain;
 }
+
+.separator {
+  height: 2px;
+  background-color: #000;
+  margin: 20px 0;
+}
