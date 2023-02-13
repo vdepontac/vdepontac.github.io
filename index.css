@@ -169,7 +169,7 @@ div#linkTM {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   max-width: 100%;
-  height: 350px;
+  height: 200px;
 }
 
 .slide {
