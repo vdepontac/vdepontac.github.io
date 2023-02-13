@@ -176,10 +176,10 @@ div#linkTM {
 .slide {
   flex-shrink: 0;
   scroll-snap-align: start;
+  margin-right: 20px;
   width: 300px;
-  height: auto;
+  height: 300px;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 36px;
   color: #ffffff;
