@@ -9,6 +9,7 @@ body {
     align-items: flex-start;
 }
 .card {
+    display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #f9f9f9;
