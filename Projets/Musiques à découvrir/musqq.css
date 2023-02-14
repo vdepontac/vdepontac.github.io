@@ -1,3 +1,7 @@
+body {
+    background: url("wallpaper.jpg") fixed cover;
+  }
+
 .container {
     display: flex;
     flex-wrap: wrap;
