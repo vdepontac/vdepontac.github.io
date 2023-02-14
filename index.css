@@ -192,19 +192,19 @@ div#linkTM {
   margin: 20px 0;
 }
 
-
-
-/* Pour Chrome */
-::-webkit-scrollbar {
-  width: 12px;
+.container {
+  display: flex;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+.card{
+  margin-left: 10px;
+  height: 200px;
+  background-color: burlywood;
+  flex: 1;
+  transition: .3s all ease;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: #c1c1c1;
-  border-radius: 20px;
-  border: 3px solid #f1f1f1;
+.card:hover{
+  flex: 2;
+  background-color: rgb(207, 207, 207);
 }
