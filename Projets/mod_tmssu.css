@@ -148,6 +148,7 @@ a svg rect {
     left: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 
 a svg rect {
@@ -156,6 +157,7 @@ a svg rect {
     transition: 2s;
     stroke-dasharray: 60 500;
     stroke-dashoffset: 500;
+    text-align: center;
 }
 
 a:hover svg rect {
