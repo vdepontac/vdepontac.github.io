@@ -124,8 +124,8 @@ img:hover {
 
 a {
     position: relative;
-    display: inline-block;
-    width: 500px;
+    display: flex;
+    justify-content: center;
     height: 60px;
     margin: 0 auto;
     text-align: center;
@@ -134,7 +134,8 @@ a {
     font-size: 20px;
     text-decoration: none;
     z-index: 100;
-}
+  }
+  
 
 a p {
     color: white;
@@ -143,7 +144,7 @@ a p {
 
 a svg,
 a svg rect {
-    background: #252839;
+    background: #252839; /* Update this line with the desired background color */
     position: absolute;
     top: 0;
     left: 0;
@@ -151,6 +152,18 @@ a svg rect {
     height: 100%;
     text-align: center;
 }
+
+
+a svg rect {
+    background: #252839; /* Update this line with the desired background color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
 
 a svg rect {
     stroke: #00e2ff;
