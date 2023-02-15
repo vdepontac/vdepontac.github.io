@@ -17,6 +17,7 @@
 
 
 h1 {
+    color: #ffffff;
     font-size: 300%;
     font-family: TF2secondary;
     color: yellow;
@@ -26,6 +27,7 @@ h1 {
 }
 
 h2 {
+    color: #ffffff;
     font-size: 250%;
     font-family: TF2main;
     color: yellow;
@@ -35,6 +37,7 @@ h2 {
 }
 
 h4 {
+    color: #ffffff;
     font-size: 130%;
     font-family: TF2secondary;
     color: yellow;
@@ -44,6 +47,7 @@ h4 {
 }
 
 p {
+    color: white;
     font-size: 100%;
     font-family: TF2secondary;
     padding-left: 50px;
