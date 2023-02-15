@@ -113,7 +113,7 @@ img:hover {
     transition: all 0.3s ease-in-out;
 }
 
-/* ---------------------------------------------------------------- Pour les boutons interactifs*/
+/* ---------------------------------------------------------------- Pour le 1er bouton interactif*/
 
 .center {
     text-align: center;
@@ -122,7 +122,7 @@ img:hover {
   a {
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 300px;
     height: 60px;  
     margin: 0 auto;
     text-align: center;
