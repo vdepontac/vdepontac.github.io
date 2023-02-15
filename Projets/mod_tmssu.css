@@ -126,7 +126,11 @@ table {
 }
 img:hover {
   transform-origin: center;
-  transform: scale(calc(75 / 70)) 
+  transform: scale(1.1) 
+}
+
+.main-pic:hover{
+    transform: none;
 }
 img:active {
   transform-origin: center;
