@@ -81,6 +81,7 @@ body {
     background: #252839;
     margin: 0 auto;
     width: 80%;
+    height: 100vh; /* ajout de la propriété height avec l'unité de mesure vh */
     padding-top: 5%;
     padding-bottom: 5%;
     background-position: center;
