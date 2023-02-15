@@ -142,6 +142,7 @@ a p {
 
 a svg,
 a svg rect {
+    background: #252839;
     position: absolute;
     top: 0;
     left: 0;
