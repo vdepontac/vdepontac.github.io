@@ -1,57 +1,53 @@
-/*@font-face {
-  font-family: SegUIVar;
-  src: url(fonts/SegUIVar.ttf)
-*/
-
 @font-face {
+    font-family: SegUIVar;
+    src: url(fonts/SegUIVar.ttf)
+  }
+  
+  @font-face {
     font-family: 'TF2main';
     src: url("res$/TF2main.ttf") format("truetype");
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: 'TF2secondary';
     src: url("res$/TF2secondary.ttf") format("truetype");
-}
-
-
-
-
-h1 {
-    color: #ffffff;
+  }
+  
+  h1 {
     font-size: 300%;
-    font-family: TF2secondary;
-    color: yellow;
-    text-align: center;
+    font-family: TF2secondary, sans-serif;
     font-weight: bold;
+    text-align: center;
     text-decoration: underline;
-}
-
-h2 {
-    color: #ffffff;
+    color: yellow;
+  }
+  
+  h2 {
     font-size: 250%;
-    font-family: TF2main;
-    color: yellow;
-    padding-left: 20px;
-    text-align: center;
+    font-family: TF2main, sans-serif;
     font-weight: bold;
-}
-
-h4 {
-    color: #ffffff;
-    font-size: 130%;
-    font-family: TF2secondary;
+    text-align: center;
+    padding-left: 20px;
     color: yellow;
-    padding-left: 35px;
+  }
+  
+  h4 {
+    font-size: 130%;
+    font-family: TF2secondary, sans-serif;
+    font-weight: bold;
     text-align: left;
     text-decoration: underline;
-}
-
-.container {
+    color: yellow;
+    padding-left: 35px;
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0 auto; /* Ajout de cette propriété pour centrer la partie container horizontalement */
   }
   
   .separator {
@@ -71,6 +67,7 @@ h4 {
     color: white;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    font-family: SegUIVar, Segoe UI, sans-serif; /* Ajout de cette propriété pour appliquer la police à tous les boutons */
   }
   
   .button:hover {
@@ -84,57 +81,56 @@ h4 {
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: SegUIVar, Segoe UI, sans-serif;
   }
-
-
-p,
-div,
-a {
+  
+  div,
+  a {
     font-family: SegUIVar, Segoe UI, sans-serif;
     text-decoration: none;
     text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4 {
+  }
+  
+  h3 {
     font-family: Segoe UI, SegUIVar, sans-serif;
     text-decoration: none;
     text-align: center;
-}
-
-.separator {
+  }
+  
+  .separator {
     height: 2px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 20px 0;
-}
-
-body {
+  }
+  
+  body {
     background: #252839;
     margin: 0 auto;
     width: 80%;
-    height: 100vh; /* ajout de la propriété height avec l'unité de mesure vh */
+    height: 100vh;
     padding-top: 5%;
     padding-bottom: 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.gallery {
+  }
+  
+  .gallery {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
 
+
+
+  
 li {
     display: inline-block;
     width: 25%;
