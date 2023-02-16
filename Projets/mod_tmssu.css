@@ -122,18 +122,29 @@ img:hover {
 
 /* ---------------------------------------------------------------- Pour le 1er bouton interactif*/
 
-.button {
-    display: inline-block;
+.text-above, .text-below {
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    height: 100vh;
+  }
+  
+  .my-button {
     background-color: #252839;
     border: 2px solid rgba(255, 255, 255, 0.5);
-    padding: 10px 20px;
-    color: #fff;
+    color: white;
     text-decoration: none;
-    text-align: center;
-    transition: opacity 0.5s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
   }
   
-  .button:hover {
-    opacity: 0;
+  .my-button:hover {
+    color: yellow;
+    border: 2px solid rgba(255, 255, 0, 0.5);
   }
-  
