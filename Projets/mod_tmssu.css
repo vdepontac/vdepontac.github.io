@@ -122,60 +122,18 @@ img:hover {
 
 /* ---------------------------------------------------------------- Pour le 1er bouton interactif*/
 
-a {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 60px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 30px;
-    font-family: sans-serif;
-    font-size: 20px;
+.button {
+    display: inline-block;
+    background-color: #252839;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    color: #fff;
     text-decoration: none;
-    z-index: 100;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
   }
   
-
-a p {
-    color: white;
-    position: relative;
-}
-
-a svg,
-a svg rect {
-    background: #252839; /* Update this line with the desired background color */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-
-a svg rect {
-    background: #252839; /* Update this line with the desired background color */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-
-a svg rect {
-    stroke: #00e2ff;
-    stroke-width: 4;
-    transition: 2s;
-    stroke-dasharray: 60 500;
-    stroke-dashoffset: 500;
-    text-align: center;
-}
-
-a:hover svg rect {
-    stroke: #ff0;
-    stroke-dasharray: 500 60;
-    stroke-dashoffset: 0;
-}
+  .button:hover {
+    opacity: 0;
+  }
+  
