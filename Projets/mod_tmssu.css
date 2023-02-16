@@ -32,7 +32,7 @@ h2 {
     font-family: TF2main;
     color: yellow;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -46,7 +46,45 @@ h4 {
     text-decoration: underline;
 }
 
-
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .separator {
+    width: 100%;
+    height: 10px;
+    background-color: #252839;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #252839;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    color: yellow;
+    border: 2px solid rgba(255, 255, 0, 0.5);
+  }
+  
+  p {
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
 
 p,
@@ -54,6 +92,7 @@ div,
 a {
     font-family: SegUIVar, Segoe UI, sans-serif;
     text-decoration: none;
+    text-align: center;
 }
 
 h1,
@@ -62,6 +101,7 @@ h3,
 h4 {
     font-family: Segoe UI, SegUIVar, sans-serif;
     text-decoration: none;
+    text-align: center;
 }
 
 .separator {
@@ -112,45 +152,3 @@ img:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
-
-/* ---------------------------------------------------------------- Pour le 1er bouton interactif*/
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .separator {
-    width: 100%;
-    height: 10px;
-    background-color: #252839;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px;
-    margin: 5px;
-    background-color: #252839;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .button:hover {
-    color: yellow;
-    border: 2px solid rgba(255, 255, 0, 0.5);
-  }
-  
-  p {
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
