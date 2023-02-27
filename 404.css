@@ -22,6 +22,9 @@ body {
 
 .frem h2 {
     position: absolute;
+    top: 15%;
+    margin: 25px auto;
+    display: flex;
     bottom: 13em;
     font-size: 34px;
 }
