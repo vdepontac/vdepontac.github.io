@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="css/login.css" rel="stylesheet">
+
+    <script>
+       function moveDiv() {
+    var $span = $("#goldfish");
+
+    $span.fadeOut(1000, function() {
+        var maxLeft = $(window).width() - $span.width();
+        var maxTop = $(window).height() - $span.height();
+        var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+        var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+        $span.css({ left: leftPos, top: topPos }).fadeIn(1000);
+    });
+};
+moveDiv();setInterval(moveDiv, 5000);
+        $(document).ready(function() {
+            $('form').on('submit', function(e) {
+                //alert($("input[name='username']").val());
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "php/readUser.php",
+                    data: JSON.stringify({
+                        identifiant: $("input[name='username']").val(),
+                        mdp: $("input[name='password']").val()
+                    }),
+                    success: function(response) {
+                        if (response.message == "OK") {
+                            window.location.href = "mesures.html"; // Rediriger si la connexion est réussie
+                        } else {
+                            alert(response.message); // Afficher l'erreur
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert("Une erreur est survenue: " + error);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="top-nav">
+    <div class="nav-left">
+        <div class="jumbotron text-center">
+            <h1>Bienvenue chez KoïFarme Analitycs</h1>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <form id="loginForm" action="#">
+        Identifiant: <input type="text" name="username">
+        <br> Mot de passe: <input type="password" name="password">
+        <br>
+        <input type="submit" value="Connexion">
+    </form>
+</div>
+<footer class="footer">
+    <div class="footercont">
+        <span>© 2024 Koï Farm. Tous droits réservés.</span>
+    </div>
+</footer>
+</body>
+</html>

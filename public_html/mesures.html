@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mesure</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/mesure.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="background-color: white;">
+<div class="top-nav" style="background-color: rgb(49, 47, 44)">
+    <div class="nav-left">
+        <div class="jumbotron text-center" style="background-color:rgb(49, 47, 44); color: white;">
+            <h1>Liste des mesures de mon aquarium</h1>
+        </div>
+    </div>
+    <div class="nav-right">
+        <a href="mesures.html" class="nav-item">Accueil</a>
+        <a href="#" class="nav-item">Profil</a>
+        <a href="#" class="nav-item">Paramètres</a>
+    </div>
+</div>
+<div class="content-container">
+<ol>
+    <li>Température <button class="show-graph" data-type="Temperature">Afficher Graphique</button></li>
+    <li>Turbidité <button class="show-graph" data-type="Turbidite">Afficher Graphique</button></li>
+    <li>O2 <button class="show-graph" data-type="O2">Afficher Graphique</button></li>
+    <li>Ph <button class="show-graph" data-type="Ph">Afficher Graphique</button></li>
+</ol>
+<div class="card mb-3" id="graphContainer" style="display: none;">
+    <div class="card-body">
+        <h1 class="card-title">Graphique des mesures</h1>
+        <div id="graphBorder" style="border: 2px solid transparent ;">
+            <canvas id="myChart" style="width: 400px; height: 300px;"></canvas>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="highest-data">
+    <h2>Indicateur des données les plus hautes</h2>
+    <div id="highestDataIndicator">
+        <!-- Le contenu de cet élément sera rempli dynamiquement par JavaScript -->
+    </div>
+</div>
+
+<footer class="footer" style="background-color: rgb(49, 47, 44)">
+    <div class="container" style="background-color: rgb(49, 47, 44)">
+        <span>© 2024 Koï Farm. Tous droits réservés.</span>
+    </div>
+</footer>
+<script>
+    $(function() {
+    var dataSets = {
+        'Temperature': {
+            label: 'Temperature',
+            data: [20, 21, 22, 23], // Exemple de données
+            borderColor: 'rgba(255, 99, 132, 1)',
+            borderWidth: 1,
+            fill: false
+        },
+        'Turbidite': {
+            label: 'Turbidite',
+            data: [0.5, 0.6, 0.7, 0.8], // Exemple de données
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1,
+            fill: false
+        },
+        'O2': {
+            label: 'O2',
+            data: [5, 5.5, 6, 6.5], // Exemple de données
+            borderColor: 'rgba(255, 206, 86, 1)',
+            borderWidth: 1,
+            fill: false
+        },
+        'Ph': {
+            label: 'Ph',
+            data: [7, 7.2, 7.4, 7.6], // Exemple de données
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1,
+            fill: false
+        }
+    };
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart;
+    
+    $('.show-graph').click(function() {
+        var type = $(this).data('type');
+        var dataSet = dataSets[type];
+        
+        if (!myChart) {
+            myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr'], // Exemple de labels
+                    datasets: [dataSet]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        } else {
+            myChart.data.datasets = [dataSet];
+            myChart.update();
+        }
+
+        // Applique la couleur de bordure correspondante
+        $('#graphBorder').css('border-color', dataSet.borderColor);
+        
+        $('#graphContainer').show();
+    });
+
+    // Fonction pour déterminer la valeur maximale dans un tableau de nombres
+    function getMaxValue(arr) {
+        return Math.max(...arr);
+    }
+
+    // Fonction pour afficher les données les plus hautes
+    function displayHighestData() {
+        var highestDataContainer = $('#highestDataIndicator');
+        highestDataContainer.empty(); // Efface le contenu précédent
+
+        Object.keys(dataSets).forEach(function(key) {
+            var dataSet = dataSets[key];
+            var maxValue = getMaxValue(dataSet.data);
+            var highestDataElement = $('<p>').text('La valeur la plus haute de ' + dataSet.label + ' est : ' + maxValue);
+            highestDataContainer.append(highestDataElement);
+        });
+    }
+
+    // Appel de la fonction pour afficher les données les plus hautes
+    displayHighestData();
+});
+
+</script>
+</body>
+</html>
